@@ -25,5 +25,5 @@
         <aside class="event-facts"><div><span>Tarih</span><strong>${esc(date(e))}</strong></div><div><span>Konum</span><strong>${esc(e.location || (e.status === 'completed' ? 'Konum bilgisi paylaşılmadı' : 'Duyurulacak'))}</strong></div><div><span>Durum</span><strong>${esc(labels[e.status] || '')}</strong></div>${apply(e)}</aside></div></section>${gallery}${applicationEnd}
       <section class="related-section"><div class="event-shell"><p class="eyebrow">Keşfetmeye devam et</p><h2>Diğer organizasyonlar</h2><div class="related-grid">${all.filter(x => x.slug !== e.slug).slice(0, 3).map(x => `<a href="../${esc(x.slug)}/" class="related-card${x.coverType === 'poster' ? ' related-card--poster' : ''}"><img src="../../${esc(x.coverImage)}" alt="" loading="lazy"><span>${esc(x.title)} <i class="bi bi-arrow-up-right"></i></span></a>`).join('')}</div></div></section>`;
     if (window.GLightbox) GLightbox({selector:'.glightbox'});
-  }).catch(() => { root.innerHTML = '<div class="event-shell event-missing"><h1>Organizasyon bilgisi bulunamadı</h1><a href="../../index.html#hotels">Organizasyonlara dön</a></div>'; });
+  }).catch(() => { root.innerHTML = '<div class="event-shell event-missing"><h1>Organizasyon bilgisi bulunamadı</h1><a href="../../index.html#organizasyonlarimiz">Organizasyonlara dön</a></div>'; });
 })();

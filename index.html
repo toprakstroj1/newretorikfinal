@@ -26,7 +26,6 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
@@ -52,16 +51,17 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Ana Sayfa<br></a></li>
-          <li><a href="#speakers">Ekibimiz</a></li>
-          <li><a href="#schedule">Faaliyetlerimiz</a></li>
-          <li><a href="#venue">Münazara</a></li>
+          <li><a href="#ana-sayfa" class="active">Ana Sayfa<br></a></li>
+          <li><a href="#ekibimiz">Ekibimiz</a></li>
+          <li><a href="#faaliyetler">Faaliyetlerimiz</a></li>
+          <li><a href="#munazara-kulturu">Münazara</a></li>
           <li><a href="organizasyonlar/">Organizasyonlarımız</a></li>
-          <li><a href="#gallery">Galeri</a></li>
+          <li><a href="#galeri">Galeri</a></li>
           <li class="dropdown"><a href="#"><span>Topluluk</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#venue">Münazara sistemi</a></li>
-              <li class="dropdown"><a href="#hotels"><span>Organizasyonlarımız</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="#hakkimizda">Hakkımızda</a></li>
+              <li><a href="#munazara-kulturu">Münazara sistemi</a></li>
+              <li class="dropdown"><a href="#organizasyonlarimiz"><span>Organizasyonlarımız</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="organizasyonlar/ocd2/">OCD 2</a></li>
                   <li><a href="organizasyonlar/agora-debate-forum/">Agora Debate Forum</a></li>
@@ -69,11 +69,11 @@
                   <li><a href="organizasyonlar/retorik-open-25/">Retorik Open 25</a></li>
                 </ul>
               </li>
-              <li><a href="#speakers">Kulüp başkanları</a></li>
-              <li><a href="#contact">İletişim</a></li>
+              <li><a href="#ekibimiz">Kulüp başkanları</a></li>
+              <li><a href="#iletisim">İletişim</a></li>
             </ul>
           </li>
-          <li><a href="#contact">İletişim</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
         </ul>
         <button type="button" class="mobile-nav-toggle d-xl-none bi bi-list" aria-label="Menüyü aç" aria-expanded="false"></button>
       </nav>
@@ -86,7 +86,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="ana-sayfa" class="hero section dark-background">
 
       <img src="assets/img/newretorik/1795344106806.jpg" alt="RETORİK münazara etkinliğinde söz alan bir katılımcı" data-aos="fade-in" class="hero-image">
 
@@ -97,10 +97,10 @@
 
         <div class="hero-actions" data-aos="fade-up" data-aos-delay="250">
           <a class="button button--hero-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdi83qhSu9-QCt-uERF6Prb6z2-2zteZPO1VINrCgb5IDeXeQ/viewform" target="_blank" rel="noopener noreferrer">Kulübe başvur <i class="bi bi-arrow-up-right"></i></a>
-          <a class="button button--hero-secondary" href="#hotels">Organizasyonları keşfet <i class="bi bi-arrow-down"></i></a>
+          <a class="button button--hero-secondary" href="#organizasyonlarimiz">Organizasyonları keşfet <i class="bi bi-arrow-down"></i></a>
         </div>
 
-      <div class="about-info mt-auto position-relative">
+      <div id="hakkimizda" class="about-info mt-auto position-relative">
 
         <div class="container position-relative" data-aos="fade-up">
           <div class="row">
@@ -123,7 +123,7 @@
     </section><!-- /Hero Section -->
 
     <!-- Speakers Section -->
-    <section id="speakers" class="speakers section">
+    <section id="ekibimiz" class="speakers section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -137,10 +137,10 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/retorik/toprakefe.jpg" class="img-fluid" alt="Elif Adıgüzel">
+              <img src="assets/img/retorik/toprakefe.jpg" class="img-fluid" alt="Toprak Efe Ceren">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4><a href="#speakers">Toprak Efe Ceren</a></h4>
+                  <h4><a href="#ekibimiz">Toprak Efe Ceren</a></h4>
                   <span>Başkan</span>
                 </div>
                 <div class="social">
@@ -156,7 +156,7 @@
               <img src="assets/img/speakers/speaker-2.jpg" class="img-fluid" alt="Eda Kankılıç">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4><a href="#speakers">Eda Kankılıç</a></h4>
+                  <h4><a href="#ekibimiz">Eda Kankılıç</a></h4>
                   <span>Başkan</span>
                 </div>
                 <div class="social">
@@ -174,7 +174,7 @@
     </section><!-- /Speakers Section -->
 
     <!-- Schedule Section -->
-    <section id="schedule" class="schedule section">
+    <section id="faaliyetler" class="schedule section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Faaliyetlerimiz<br></h2>
         <p>RETORİK, turnuvalar, eğitimler ve etkinliklerle düşünme ve ifade becerilerini güçlendirir.</p>
@@ -187,14 +187,14 @@
     </section><!-- /Schedule Section -->
 
     <!-- Venue Section -->
-    <section id="venue" class="debate-culture section">
+    <section id="munazara-kulturu" class="debate-culture section">
       <div class="container debate-culture__layout">
         <div class="debate-culture__copy" data-aos="fade-up">
           <span class="eyebrow">RETORİK · Düşünce ve ifade</span>
           <h2>Münazara, fikri <em>birlikte</em> büyütme pratiğidir.</h2>
           <p class="debate-culture__lead">Bir iddiayı savunmak, yalnızca iyi konuşmak değildir. Araştırmak, gerekçeleri tartmak ve karşıt görüşü gerçekten dinlemekle başlar.</p>
           <p>RETORİK’te farklı perspektiflerle karşılaşmak düşünceyi keskinleştirir. Katılımcılar argüman kurar, kanıtları analiz eder ve saygılı bir tartışma içinde karşı argümanlara yanıt verir. Böylece etkili hitabet, eleştirel düşünme ve fikirleri özgürce ifade etme birlikte gelişir.</p>
-          <a class="debate-culture__link" href="#hotels">Faaliyetlerimizi keşfet <i class="bi bi-arrow-down-right"></i></a>
+          <a class="debate-culture__link" href="#organizasyonlarimiz">Faaliyetlerimizi keşfet <i class="bi bi-arrow-down-right"></i></a>
         </div>
         <div class="debate-culture__visual" data-aos="fade-up" data-aos-delay="120">
           <img src="assets/img/newretorik/optimized/1795344106788.webp" alt="Münazara sırasında konuşmacıyı dinleyen katılımcılar" loading="lazy">
@@ -209,7 +209,7 @@
     </section><!-- /Debate Culture Section -->
 
     <!-- Organizations and Events -->
-    <section id="hotels" class="retorik-events section">
+    <section id="organizasyonlarimiz" class="retorik-events section">
       <div class="container section-title" data-aos="fade-up">
         <span class="eyebrow">RETORİK · Etkinlik arşivi</span>
         <h2>Organizasyonlarımız</h2>
@@ -232,7 +232,7 @@
     </dialog>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+    <section id="galeri" class="gallery section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -242,18 +242,28 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="event-photo-grid">
-          <a class="event-photo event-photo--feature glightbox" data-gallery="images-gallery" href="assets/img/newretorik/optimized/1795344107140.webp"><img src="assets/img/newretorik/optimized/1795344107140.webp" width="1800" height="1198" alt="RETORİK etkinliğinde tartışmayı dinleyen katılımcılar" loading="lazy"><span>Fikirleri dikkatle dinlemek</span></a>
-          <a class="event-photo glightbox" data-gallery="images-gallery" href="assets/img/newretorik/optimized/1795344107036.webp"><img src="assets/img/newretorik/optimized/1795344107036.webp" width="1900" height="1258" alt="Etkinlik salonunda aynı masa çevresinde fikir alışverişi yapan katılımcılar" loading="lazy"><span>Fikir alışverişi</span></a>
-          <a class="event-photo glightbox" data-gallery="images-gallery" href="assets/img/newretorik/optimized/1795344107096.webp"><img src="assets/img/newretorik/optimized/1795344107096.webp" width="1900" height="1262" alt="RETORİK oturumunda birlikte çalışan katılımcılar" loading="lazy"><span>Birlikte üretmek</span></a>
-          <a class="event-photo glightbox" data-gallery="images-gallery" href="assets/img/newretorik/optimized/1795344107121.webp"><img src="assets/img/newretorik/optimized/1795344107121.webp" width="1800" height="1198" alt="Etkinlik salonundaki izleyiciler" loading="lazy"><span>Topluluk buluşması</span></a>
-          <a class="event-photo glightbox" data-gallery="images-gallery" href="assets/img/retorik/retorik3.jpg"><img src="assets/img/retorik/retorik3.jpg" width="2048" height="1366" alt="RETORİK etkinliğinde münazara hazırlığı yapan katılımcı" loading="lazy"><span>Münazara hazırlığı</span></a>
+          <a class="event-photo event-photo--feature gallery-lightbox-trigger" href="assets/img/newretorik/optimized/1795344107140.webp"><img src="assets/img/newretorik/optimized/1795344107140.webp" width="1800" height="1198" alt="RETORİK etkinliğinde tartışmayı dinleyen katılımcılar" loading="lazy"><span>Fikirleri dikkatle dinlemek</span></a>
+          <a class="event-photo gallery-lightbox-trigger" href="assets/img/newretorik/optimized/1795344107036.webp"><img src="assets/img/newretorik/optimized/1795344107036.webp" width="1900" height="1258" alt="Etkinlik salonunda aynı masa çevresinde fikir alışverişi yapan katılımcılar" loading="lazy"><span>Fikir alışverişi</span></a>
+          <a class="event-photo gallery-lightbox-trigger" href="assets/img/newretorik/optimized/1795344107096.webp"><img src="assets/img/newretorik/optimized/1795344107096.webp" width="1900" height="1262" alt="RETORİK oturumunda birlikte çalışan katılımcılar" loading="lazy"><span>Birlikte üretmek</span></a>
+          <a class="event-photo gallery-lightbox-trigger" href="assets/img/newretorik/optimized/1795344107121.webp"><img src="assets/img/newretorik/optimized/1795344107121.webp" width="1800" height="1198" alt="Etkinlik salonundaki izleyiciler" loading="lazy"><span>Topluluk buluşması</span></a>
+          <a class="event-photo gallery-lightbox-trigger" href="assets/img/retorik/retorik1.jpg"><img src="assets/img/retorik/retorik1.jpg" width="2048" height="1366" alt="RETORİK etkinliğinde münazara hazırlığı yapan katılımcı" loading="lazy"><span>Münazara hazırlığı</span></a>
         </div>
       </div>
 
     </section><!-- /Gallery Section -->
 
+    <dialog id="gallery-lightbox" class="gallery-lightbox" aria-label="Etkinlik fotoğrafı görüntüleyici">
+      <button class="gallery-lightbox__close" type="button" data-gallery-close aria-label="Fotoğrafı kapat"><i class="bi bi-x-lg"></i></button>
+      <button class="gallery-lightbox__nav gallery-lightbox__prev" type="button" data-gallery-prev aria-label="Önceki fotoğraf"><i class="bi bi-chevron-left"></i></button>
+      <figure class="gallery-lightbox__figure">
+        <img data-gallery-image alt="">
+        <figcaption data-gallery-caption></figcaption>
+      </figure>
+      <button class="gallery-lightbox__nav gallery-lightbox__next" type="button" data-gallery-next aria-label="Sonraki fotoğraf"><i class="bi bi-chevron-right"></i></button>
+    </dialog>
+
     <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    <section id="sss" class="faq section">
       <div class="container section-title" data-aos="fade-up"><h2>Sıkça Sorulan Sorular</h2><p>RETORİK hakkında temel bilgiler.</p></div>
       <div class="container"><div class="row justify-content-center"><div class="col-lg-10" data-aos="fade-up" data-aos-delay="100"><div class="faq-container">
         <div class="faq-item faq-active"><h3>RETORİK nedir?</h3><div class="faq-content"><p>RETORİK, Adana merkezli münazara ve kişisel gelişim topluluğudur. Turnuvalar, eğitimler ve etkinliklerle düşünme ve ifade becerilerini güçlendirir.</p></div><i class="faq-toggle bi bi-chevron-right"></i></div>
@@ -265,7 +275,7 @@
     </section><!-- /Faq Section -->
 
     <!-- Buy Tickets Section -->
-    <section id="buy-tickets" class="buy-tickets section light-background">
+    <section id="kulube-basvur" class="buy-tickets section light-background">
       <div class="container section-title" data-aos="fade-up"><h2>Kulübe Başvur</h2><p>RETORİK Münazara topluluğuna katılmak için başvuru formunu kullanın.</p></div>
       <div class="container"><div class="row gy-4 pricing-item featured" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-3 d-flex align-items-center justify-content-center"><h3>Kulüp Başvurusu</h3></div>
@@ -276,7 +286,7 @@
     </section><!-- /Buy Tickets Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="iletisim" class="contact section">
       <div class="container section-title" data-aos="fade-up"><h2>İletişim</h2><p>RETORİK ile iletişime geçin.</p></div>
       <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row gy-4">
         <div class="col-lg-4 col-md-6"><div class="info-item d-flex flex-column justify-content-center align-items-center"><i class="bi bi-geo-alt"></i><h3>Konum</h3><p>Adana</p></div></div>
@@ -307,21 +317,21 @@
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Topluluk</h4>
             <ul>
-              <li><a href="#hero">Ana Sayfa</a></li>
-              <li><a href="#speakers">Ekibimiz</a></li>
-              <li><a href="#schedule">Faaliyetler</a></li>
-              <li><a href="#gallery">Etkinliklerimiz</a></li>
-              <li><a href="#buy-tickets">Kulübe başvur</a></li>
+              <li><a href="#ana-sayfa">Ana Sayfa</a></li>
+              <li><a href="#ekibimiz">Ekibimiz</a></li>
+              <li><a href="#faaliyetler">Faaliyetler</a></li>
+              <li><a href="#galeri">Etkinliklerimiz</a></li>
+              <li><a href="#kulube-basvur">Kulübe başvur</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>İletişim</h4>
             <ul>
-              <li><a href="#venue">Münazara</a></li>
-              <li><a href="#hotels">Organizasyonlarımız</a></li>
-              <li><a href="#gallery">Galeri</a></li>
-              <li><a href="#contact">İletişim</a></li>
+              <li><a href="#munazara-kulturu">Münazara</a></li>
+              <li><a href="#organizasyonlarimiz">Organizasyonlarımız</a></li>
+              <li><a href="#galeri">Galeri</a></li>
+              <li><a href="#iletisim">İletişim</a></li>
               <li><a href="https://tab.retorikmunazara.com">RETORİK Tab</a></li>
             </ul>
           </div>
@@ -339,8 +349,8 @@
             <h4>Çevrimiçi</h4>
             <ul>
               <li><a href="https://tab.retorikmunazara.com" target="_blank" rel="noopener noreferrer">RETORİK Tab</a></li>
-              <li><a href="#schedule">Faaliyetlerimiz</a></li>
-              <li><a href="#speakers">Kulüp başkanları</a></li>
+              <li><a href="#faaliyetler">Faaliyetlerimiz</a></li>
+              <li><a href="#ekibimiz">Kulüp başkanları</a></li>
             </ul>
           </div>
 
@@ -354,13 +364,6 @@
         <div class="d-flex flex-column align-items-center align-items-lg-start">
           <div>
             © <strong><span>RETORİK Münazara</span></strong>. Tüm hakları saklıdır
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
           </div>
         </div>
 
@@ -383,11 +386,11 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery-lightbox.js"></script>
   <script src="assets/js/events.js"></script>
 
 </body>
