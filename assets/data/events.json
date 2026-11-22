@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ocd-2",
+    "slug": "ocd2",
+    "title": "Open Council Debate (OCD) 2",
+    "shortDescription": "Retorik tarafından geliştirilen özel münazara sisteminin resmî ikinci konferansı.",
+    "fullDescription": "Open Council Debate (OCD) 2, Retorik tarafından geliştirilen özel münazara sisteminin ikinci konferansıdır. Organizasyon tamamlanmıştır.",
+    "status": "completed",
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-19",
+    "location": "Girne Koleji Adana Kampüsü",
+    "coverImage": "assets/img/retorik/ocd.png",
+    "gallery": [
+      "assets/img/newretorik/optimized/1795344106647.webp",
+      "assets/img/newretorik/optimized/1795344106788.webp",
+      "assets/img/newretorik/optimized/1795344106912.webp",
+      "assets/img/newretorik/optimized/1795344107121.webp",
+      "assets/img/newretorik/optimized/1795344107140.webp",
+      "assets/img/newretorik/optimized/1795344107036.webp",
+      "assets/img/newretorik/optimized/1795344107096.webp"
+    ],
+    "applicationUrl": null,
+    "categories": [
+      "Münazara",
+      "Konferans"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "dateLabel": "17–18–19 Kasım 2026",
+    "coverAlt": "RETORİK OCD Turnuvası logosu",
+    "coverType": "poster"
+  },
+  {
+    "id": "cukurova-genc-meclis-demo",
+    "slug": "cukurova-genc-meclis-demo",
+    "title": "Çukurova Genç Meclis Demo",
+    "shortDescription": "Gençlere parlamento deneyimi sağlamayı amaçlayan TBMM simülasyonu.",
+    "fullDescription": "14 Haziran 2026 tarihinde gerçekleştirilen TBMM simülasyonu kapsamında katılımcılar vekil veya organizasyon ekibi olarak sürece dahil olmuştur.",
+    "status": "completed",
+    "startDate": "2026-06-14",
+    "endDate": "2026-06-14",
+    "location": null,
+    "coverImage": "assets/img/retorik/cgm.jpg",
+    "gallery": [
+      "assets/img/newretorik/optimized/1795344107036.webp",
+      "assets/img/newretorik/optimized/1795344107096.webp"
+    ],
+    "applicationUrl": null,
+    "categories": [
+      "Gençlik",
+      "Simülasyon"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "coverType": "poster",
+    "coverAlt": "Çukurova Genç Meclis simülasyonu posteri."
+  },
+  {
+    "id": "agora-debate-forum",
+    "slug": "agora-debate-forum",
+    "title": "Agora Debate Forum",
+    "shortDescription": "Düşünen zihinlerden güçlü seslere uzanan bir yolculuk.",
+    "fullDescription": "Düşünen zihinlerden güçlü seslere uzanan bir yolculuk başlıyor. Agora Debate Forum, kelimelerin ötesinde bir anlam taşır. Etkinlik 16–17 Mayıs 2026 tarihlerinde çevrim içi olarak gerçekleştirilmiş ve tamamlanmıştır.",
+    "status": "completed",
+    "startDate": "2026-05-16",
+    "endDate": "2026-05-17",
+    "location": "Online",
+    "coverImage": "assets/img/retorik/agora.jpg",
+    "gallery": [
+      "assets/img/retorik/agora.jpg",
+      "assets/img/retorik/retorik1.jpg",
+      "assets/img/retorik/retorik2.jpg"
+    ],
+    "applicationUrl": null,
+    "categories": [
+      "Forum",
+      "Münazara"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "coverType": "poster",
+    "coverAlt": "Agora Debate Forum etkinlik posteri"
+  },
+  {
+    "id": "open-council-debate",
+    "slug": "open-council-debate",
+    "title": "Open Council Debate (OCD)",
+    "shortDescription": "Retorik tarafından geliştirilen özel münazara sistemi.",
+    "fullDescription": "Open Council Debate (OCD), Retorik tarafından geliştirilen özel münazara sistemidir. Organizasyon tamamlanmıştır.",
+    "status": "completed",
+    "startDate": null,
+    "endDate": null,
+    "location": null,
+    "coverImage": "assets/img/retorik/ocd.png",
+    "gallery": [
+      "assets/img/retorik/ocd.png",
+      "assets/img/retorik/münazara.jpg"
+    ],
+    "applicationUrl": null,
+    "categories": [
+      "Münazara",
+      "Turnuva"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "coverType": "poster",
+    "coverAlt": "Open Council Debate organizasyonuna ait logo."
+  },
+  {
+    "id": "retorik-open-25",
+    "slug": "retorik-open-25",
+    "title": "Retorik Open 25",
+    "shortDescription": "Öğrenmeyi, fikir üretimini ve düşünsel derinliği teşvik eden organizasyon.",
+    "fullDescription": "Retorik Open 25, yalnızca bir yarışma olmanın ötesinde; öğrenmeyi, fikir üretimini ve düşünsel derinliği teşvik eder. Organizasyon tamamlanmıştır.",
+    "status": "completed",
+    "startDate": "2025-10-19",
+    "endDate": "2025-10-19",
+    "location": "Seytim, Adana",
+    "coverImage": "assets/img/retorik/open25.jpg",
+    "gallery": [
+      "assets/img/retorik/open25.jpg",
+      "assets/img/retorik/retorik3.jpg",
+      "assets/img/retorik/retorik4.jpg"
+    ],
+    "applicationUrl": null,
+    "categories": [
+      "Turnuva",
+      "Münazara"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "coverType": "poster",
+    "coverAlt": "Retorik Open 25 organizasyon logosu"
+  },
+  {
+    "id": "cukurova-genc-meclis-2",
+    "slug": "cukurova-genc-meclis-2",
+    "title": "Çukurova Genç Meclis II",
+    "shortDescription": "Çukurova Genç Meclis’in ikinci edisyonu.",
+    "fullDescription": "Çukurova Genç Meclis’in ikinci edisyonu. Etkinlik tarihi 26, 27 ve 28 Mart olarak duyurulmuştur. Yıl, konum ve başvuru bilgileri paylaşılmamıştır.",
+    "status": "announced",
+    "dateLabel": "26–27–28 Mart",
+    "startDate": null,
+    "endDate": null,
+    "location": null,
+    "coverImage": "assets/img/retorik/cgm.jpg",
+    "gallery": [],
+    "applicationUrl": null,
+    "categories": [
+      "Gençlik",
+      "Simülasyon"
+    ],
+    "schedule": [],
+    "committees": [],
+    "speakers": [],
+    "faq": [],
+    "coverType": "poster",
+    "coverAlt": "Çukurova Genç Meclis II simülasyon posteri."
+  }
+]

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10182d">
+  <meta name="description" content="RETORİK Münazara'nın geçmiş ve duyurulan organizasyonlarını keşfedin.">
+  <meta property="og:type" content="website"><meta property="og:title" content="Organizasyonlarımız | RETORİK Münazara"><meta property="og:description" content="RETORİK'in münazara, forum ve gençlik organizasyonları."><meta property="og:image" content="../assets/img/logo.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Organizasyonlarımız | RETORİK Münazara"><meta name="twitter:description" content="RETORİK'in münazara, forum ve gençlik organizasyonları."><meta name="twitter:image" content="../assets/img/logo.png">
+  <title>Organizasyonlarımız | RETORİK Münazara</title>
+  <link rel="icon" href="../assets/img/favicon.png"><link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/css/main.css" rel="stylesheet"><link href="../assets/css/retorik.css" rel="stylesheet">
+</head>
+<body class="event-page">
+  <header class="event-header"><a href="../index.html" aria-label="RETORİK ana sayfa"><img src="../assets/img/logo.png" alt="RETORİK Münazara"></a><a class="event-header-home" href="../index.html">Ana sayfa <i class="bi bi-arrow-up-right"></i></a></header>
+  <main>
+    <section class="event-detail-hero archive-hero"><div class="event-detail-shade"></div><div class="event-shell event-detail-heading"><a href="../index.html" class="back-link"><i class="bi bi-arrow-left"></i> Ana sayfa</a><p class="eyebrow">RETORİK · Arşiv</p><h1>Organizasyonlarımız</h1><p>Münazara, forum ve gençlik çalışmalarımızın geçmişi ve yeni duyurular.</p></div></section>
+    <section class="retorik-events section"><div class="event-shell"><div class="event-filters" role="group" aria-label="Organizasyonları duruma göre filtrele"><button class="is-active" type="button" data-event-filter="all" aria-pressed="true">Tüm etkinlikler</button><button type="button" data-event-filter="upcoming" aria-pressed="false">Yaklaşan</button><button type="button" data-event-filter="ongoing" aria-pressed="false">Devam eden</button><button type="button" data-event-filter="completed" aria-pressed="false">Tamamlanan</button></div><div id="event-grid" class="event-grid" data-source="../assets/data/events.json" data-asset-prefix="../" data-detail-prefix="" aria-live="polite"><p class="event-empty">Organizasyonlar yükleniyor…</p></div></div></section>
+    <dialog id="event-preview" class="event-dialog" aria-labelledby="preview-title"><button class="event-dialog__close" type="button" data-preview-close aria-label="Önizlemeyi kapat"><i class="bi bi-x-lg"></i></button><div data-preview-content></div></dialog>
+  </main>
+  <footer class="event-footer"><div class="event-shell"><a href="../index.html">RETORİK Münazara</a><span>Adana Münazara Topluluğu</span><a href="../index.html#contact">İletişim</a></div></footer>
+  <script src="../assets/js/events.js"></script>
+</body>
+</html>
